@@ -22,12 +22,6 @@ p6df::modules::docker::external::brew() {
 p6df::modules::docker::home::symlink() { }
 
 p6df::modules::docker::init() {
-
-    fpath=(
-	$P6_DFZ_SRC_DIR/robbyrussell/oh-my-zsh/plugins/docker
-	$P6_DFZ_SRC_DIR/robbyrussell/oh-my-zsh/plugins/docker-compose
-	$fpath
-    )
 }
 
 p6df::prompt::docker::line() { }
