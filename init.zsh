@@ -24,7 +24,13 @@ p6df::modules::docker::home::symlink() { }
 p6df::modules::docker::init() {
 }
 
-p6df::prompt::docker::line() { }
+p6df::prompt::docker::line() {
+
+    if [ -f Dockerfile ]; then
+	local cmd=$(grep ^CMD Dockerfile | head -1)
+	echo "docker: $cmd"
+    fi
+}
 
 p6_docker_dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
 p6_docker_dzsh()  { docker exec -it $(docker ps -aqf "name=$1") zsh;  }
