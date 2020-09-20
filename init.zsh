@@ -88,9 +88,9 @@ p6df::prompt::docker::line() {
 p6_docker_prompt_info() {
 
   local str
-  if [ -f Dockerfile ]; then
+  if p6_file_exists "Dockerfile"; then
     local cmd=$(egrep '^CMD|^ENTRYPOINT' Dockerfile | head -1)
-    str="docker: $cmd"
+    str="docker:   $cmd"
     p6_return_str "$str"
   else
       p6_return_void
