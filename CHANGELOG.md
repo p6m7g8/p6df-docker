@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/p6m7g8/p6df-docker/compare/v1.0.0...v1.0.1) (2020-09-20)
+
+
+### Bug Fixes
+
+* **brew:** install what I want, it stablized ([#6](https://github.com/p6m7g8/p6df-docker/issues/6)) ([0ca032e](https://github.com/p6m7g8/p6df-docker/commit/0ca032ed2bc78c6f506928b375db9318d61b6ca0))
+* **version:** matches tag ([#5](https://github.com/p6m7g8/p6df-docker/issues/5)) ([8669e82](https://github.com/p6m7g8/p6df-docker/commit/8669e8230cdd7d82babcde818d681e1dae49607e))
+
+
+* **prompt:** indents more ([#7](https://github.com/p6m7g8/p6df-docker/issues/7)) ([1ebc1ce](https://github.com/p6m7g8/p6df-docker/commit/1ebc1ce94fd89c9b120c6addaf11c781dded5c29))
+
 ## 1.0.0 (2020-06-07)
 
 
