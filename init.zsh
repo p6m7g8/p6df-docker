@@ -16,8 +16,8 @@ p6df::modules::docker::version() { echo "0.0.1" }
 p6df::modules::docker::deps() {
     ModuleDeps=(
    	  akarzim/zsh-docker-aliases
-	    robbyrussell/oh-my-zsh:plugins/docker
-	    robbyrussell/oh-my-zsh:plugins/docker-compose
+	    ohmyzsh/ohmyzsh:plugins/docker
+	    ohmyzsh/ohmyzsh:plugins/docker-compose
     )
 }
 
@@ -41,7 +41,7 @@ p6df::modules::docker::external::brew() {
   brew install docker-ls
   brew install docker-slim
   brew install docker-squash
-  brew install  dockerize
+  brew install dockerize
 }
 
 ######################################################################
