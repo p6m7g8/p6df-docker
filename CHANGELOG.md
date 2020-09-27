@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/p6m7g8/p6df-docker/compare/v1.0.1...v1.0.2) (2020-09-27)
+
+
+### Bug Fixes
+
+* **module:** robbyrussell -> ohmyzsh ([#8](https://github.com/p6m7g8/p6df-docker/issues/8)) ([26f64b1](https://github.com/p6m7g8/p6df-docker/commit/26f64b1685e38822f009a622e75bd5fd8353f14f))
+
 ### [1.0.1](https://github.com/p6m7g8/p6df-docker/compare/v1.0.0...v1.0.1) (2020-09-20)
 
 
