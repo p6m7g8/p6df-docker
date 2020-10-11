@@ -6,6 +6,5 @@
 - p6df::modules::docker::home::symlink()
 - p6df::modules::docker::init()
 - p6df::modules::docker::prompt::line()
-- p6df::modules::docker::version()
 - str str = p6_docker_prompt_info()
 
