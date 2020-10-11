@@ -15,6 +15,7 @@ p6df::modules::docker::version() { echo "0.0.1" }
 ######################################################################
 p6df::modules::docker::deps() {
     ModuleDeps=(
+      p6m7g8/p6common
    	  akarzim/zsh-docker-aliases
 	    ohmyzsh/ohmyzsh:plugins/docker
 	    ohmyzsh/ohmyzsh:plugins/docker-compose
@@ -66,11 +67,11 @@ p6df::modules::docker::init() {
 ######################################################################
 #<
 #
-# Function: p6df::prompt::docker::line()
+# Function: p6df::modules::docker::prompt::line()
 #
 #>
 ######################################################################
-p6df::prompt::docker::line() {
+p6df::modules::docker::prompt::line() {
 
   p6_docker_prompt_info
 }
