@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/p6m7g8/p6df-docker/compare/v1.0.2...v2.0.0) (2020-10-11)
+
+
+### Bug Fixes
+
+* **deps:** depends on `p6m7g8/p6common` ([#9](https://github.com/p6m7g8/p6df-docker/issues/9)) ([2346458](https://github.com/p6m7g8/p6df-docker/commit/2346458f55f4998897c1e9bc52502ab9d8526af9))
+
 ### [1.0.2](https://github.com/p6m7g8/p6df-docker/compare/v1.0.1...v1.0.2) (2020-09-27)
 
 
