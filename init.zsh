@@ -23,8 +23,8 @@ p6df::modules::docker::deps() {
 ######################################################################
 p6df::modules::docker::external::brew() {
 
-  brew cask install docker
-  brew cask install docker-toolbox
+  brew install --cask docker
+  brew install --cask docker-toolbox
   brew install docker-swarm
   brew install docker-compose
   brew install docker-compose-completion
