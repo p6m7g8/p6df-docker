@@ -6,12 +6,12 @@
 #>
 ######################################################################
 p6df::modules::docker::deps() {
-    ModuleDeps=(
-      p6m7g8/p6common
-   	  akarzim/zsh-docker-aliases
-	    ohmyzsh/ohmyzsh:plugins/docker
-	    ohmyzsh/ohmyzsh:plugins/docker-compose
-    )
+  ModuleDeps=(
+    p6m7g8/p6common
+    akarzim/zsh-docker-aliases
+    ohmyzsh/ohmyzsh:plugins/docker
+    ohmyzsh/ohmyzsh:plugins/docker-compose
+  )
 }
 
 ######################################################################
@@ -83,10 +83,13 @@ p6_docker_prompt_info() {
   local str
   if p6_file_exists "Dockerfile"; then
     local cmd=$(egrep '^CMD|^ENTRYPOINT' Dockerfile | head -1)
+    if p6_string_blank "$cmd"; then
+      cmd=$(grep '^RUN' Dockerfile | tail -1)
+    fi
     str="docker:   $cmd"
     p6_return_str "$str"
   else
-      p6_return_void
+    p6_return_void
   fi
 }
 
@@ -105,4 +108,4 @@ p6_docker_dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
 #
 #>
 ######################################################################
-p6_docker_dzsh()  { docker exec -it $(docker ps -aqf "name=$1") zsh;  }
+p6_docker_dzsh() { docker exec -it $(docker ps -aqf "name=$1") zsh; }
