@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/p6m7g8/p6df-docker/compare/v2.0.0...v2.1.0) (2020-12-06)
+
+
+### Features
+
+* **api:** centralize ::version() ([3f8dd8b](https://github.com/p6m7g8/p6df-docker/commit/3f8dd8b75ac66924d66b9bd8d56741e670a55042))
+* **community:** adds CODE_OF_CONDUCT ([b6c865e](https://github.com/p6m7g8/p6df-docker/commit/b6c865e6734867deb66bcaec36ceca640055a8ef))
+* **github:** adds ISSUE_TEMPLATEs ([dcc03cd](https://github.com/p6m7g8/p6df-docker/commit/dcc03cd728be29494d06c4857b5937ed51c67da8))
+* **prompt:** if no exposen or cmd then use last run ([#19](https://github.com/p6m7g8/p6df-docker/issues/19)) ([360b968](https://github.com/p6m7g8/p6df-docker/commit/360b9680acb7a25f03d9f2c2e8efc3af3a38e76d))
+
+
+### Bug Fixes
+
+* **bew:** cask -> --cask ([#18](https://github.com/p6m7g8/p6df-docker/issues/18)) ([63121d8](https://github.com/p6m7g8/p6df-docker/commit/63121d8f636db64bc0f41dc3f0afb1461b11aa07))
+
+
+* **community:** rely on the .github/ in the org ([#16](https://github.com/p6m7g8/p6df-docker/issues/16)) ([2354531](https://github.com/p6m7g8/p6df-docker/commit/235453157e45cd2c54214ade1d4f32dba08a76a6))
+* **README:** fixes module expansion, adds CodeCov and Synk badges ([#17](https://github.com/p6m7g8/p6df-docker/issues/17)) ([1051544](https://github.com/p6m7g8/p6df-docker/commit/1051544881d73eab367bf29654b26525241c8a80))
+* **README:** updates to template v2.0 ([a5dc916](https://github.com/p6m7g8/p6df-docker/commit/a5dc91690f832ea5d8e2cca8e4b34d717dd0b94d))
+* **semantic:** no longer needed, defaults are fine ([74a0f82](https://github.com/p6m7g8/p6df-docker/commit/74a0f824ab184e8c087daed9d4e882dc072f9c86))
+
 ## [2.0.0](https://github.com/p6m7g8/p6df-docker/compare/v1.0.2...v2.0.0) (2020-10-11)
 
 
