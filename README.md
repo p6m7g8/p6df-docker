@@ -21,6 +21,8 @@
 [![Mergify](https://img.shields.io/endpoint.svg?url=https://gh.mergify.io/badges/p6m7g8/p6df-docker/&style=flat)](https://mergify.io)
 [![codecov](https://codecov.io/gh/p6m7g8/p6df-docker/branch/master/graph/badge.svg?token=14Yj1fZbew)](https://codecov.io/gh/p6m7g8/p6df-docker)
 [![Known Vulnerabilities](https://snyk.io/test/github/p6m7g8/p6df-docker/badge.svg?targetFile=package.json)](https://snyk.io/test/github/p6m7g8/p6df-docker?targetFile=package.json)
+[![Gihub repo dependents](https://badgen.net/github/dependents-repo/p6m7g8/p6df-docker)](https://github.com/p6m7g8/p6df-docker/network/dependents?dependent_type=REPOSITORY)
+[![Gihub package dependents](https://badgen.net/github/dependents-pkg/p6m7g8/p6df-docker)](https://github.com/p6m7g8/p6df-docker/network/dependents?dependent_type=PACKAGE)
 
 ## Summary
 
