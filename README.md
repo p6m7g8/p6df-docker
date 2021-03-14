@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6df-docker:
+
+#### p6df-docker/init.zsh:
 
 - p6_docker_dbash()
 - p6_docker_dzsh()
