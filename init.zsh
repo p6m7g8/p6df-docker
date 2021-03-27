@@ -40,25 +40,6 @@ p6df::modules::docker::external::brew() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::docker::home::symlink()
-#
-#>
-######################################################################
-p6df::modules::docker::home::symlink() { }
-
-######################################################################
-#<
-#
-# Function: p6df::modules::docker::init()
-#
-#>
-######################################################################
-p6df::modules::docker::init() {
-}
-
-######################################################################
-#<
-#
 # Function: p6df::modules::docker::prompt::line()
 #
 #>
@@ -100,7 +81,11 @@ p6_docker_prompt_info() {
 #
 #>
 ######################################################################
-p6_docker_dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
+p6_docker_dbash() { 
+
+    docker exec -it $(docker ps -aqf "name=$1") bash
+}
+
 ######################################################################
 #<
 #
@@ -108,4 +93,7 @@ p6_docker_dbash() { docker exec -it $(docker ps -aqf "name=$1") bash; }
 #
 #>
 ######################################################################
-p6_docker_dzsh() { docker exec -it $(docker ps -aqf "name=$1") zsh; }
+p6_docker_dzsh() { 
+
+    docker exec -it $(docker ps -aqf "name=$1") zsh
+}
