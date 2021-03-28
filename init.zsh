@@ -17,6 +17,19 @@ p6df::modules::docker::deps() {
 ######################################################################
 #<
 #
+# Function: p6df::modules::docker::vscodes()
+#
+#>
+######################################################################
+p6df::modules::docker::vscodes() {
+
+  # docker
+  code --install-extension ms-azuretools.vscode-docker
+}
+
+######################################################################
+#<
+#
 # Function: p6df::modules::docker::external::brew()
 #
 #>
@@ -57,6 +70,8 @@ p6df::modules::docker::prompt::line() {
 #  Returns:
 #	str - str
 #
+#  Depends:	 p6_file p6_string
+#  Environment:	 CMD RUN
 #>
 ######################################################################
 p6_docker_prompt_info() {
@@ -81,9 +96,9 @@ p6_docker_prompt_info() {
 #
 #>
 ######################################################################
-p6_docker_dbash() { 
+p6_docker_dbash() {
 
-    docker exec -it $(docker ps -aqf "name=$1") bash
+  docker exec -it $(docker ps -aqf "name=$1") bash
 }
 
 ######################################################################
@@ -93,7 +108,7 @@ p6_docker_dbash() {
 #
 #>
 ######################################################################
-p6_docker_dzsh() { 
+p6_docker_dzsh() {
 
-    docker exec -it $(docker ps -aqf "name=$1") zsh
+  docker exec -it $(docker ps -aqf "name=$1") zsh
 }
