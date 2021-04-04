@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/p6m7g8/p6df-docker/compare/v2.1.0...v2.1.1) (2021-04-04)
+
+
+* **link:** remove rendundant symlinks; echo for now ([#21](https://github.com/p6m7g8/p6df-docker/issues/21)) ([7e570d0](https://github.com/p6m7g8/p6df-docker/commit/7e570d00141acac5ec9ab264bfdb41571617f285))
+* **README:** updates generator ([#20](https://github.com/p6m7g8/p6df-docker/issues/20)) ([f8f88cf](https://github.com/p6m7g8/p6df-docker/commit/f8f88cfc4ffdaf126601ac2c6a77cc00bf5dd31c))
+* **vscode:** splits vscode extensions to their languages ([#22](https://github.com/p6m7g8/p6df-docker/issues/22)) ([1278475](https://github.com/p6m7g8/p6df-docker/commit/12784759cdd82aefce7bd47596bf4bd08da95d69))
+* Coc -> .github ([8ff683c](https://github.com/p6m7g8/p6df-docker/commit/8ff683c9738f8b6c05353aa27538b04fb485254f))
+
 ## [2.1.0](https://github.com/p6m7g8/p6df-docker/compare/v2.0.0...v2.1.0) (2020-12-06)
 
 
